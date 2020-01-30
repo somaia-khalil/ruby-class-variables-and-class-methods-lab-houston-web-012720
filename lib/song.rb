@@ -26,6 +26,7 @@ class Song
      if newhash[genre] 
        newhash[genre]+=1 
      else newhash[genre] = 1
+     end
     end 
   end
   
