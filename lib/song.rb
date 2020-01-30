@@ -39,5 +39,7 @@ class Song
         newhash[artist] =1
     end
   end
+  newhash
+  end
   
 end
