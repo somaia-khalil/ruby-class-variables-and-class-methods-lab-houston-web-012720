@@ -32,7 +32,12 @@ class Song
   end
   def artist_count 
     newhash = {}
-    @@artists.each 
+    @@artists.each do |artist|
+      if newhash[artist]
+        newhash[artist] +=1 
+      else 
+        newhash[artist] =1
+    end
   end
   
 end
