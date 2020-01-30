@@ -28,6 +28,7 @@ class Song
      else newhash[genre] = 1
      end
     end 
+    newhash
   end
   
 end
