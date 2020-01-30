@@ -30,5 +30,9 @@ class Song
     end 
     newhash
   end
+  def artist_count 
+    newhash = {}
+    @@artists.each 
+  end
   
 end
